@@ -440,3 +440,9 @@ h4 {
   background-color: var(--button);
 }
 
+@media (max-width: 600px) {
+    /* Stack grid items in a single column */
+    .projects-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }}
