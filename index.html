@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link id="styles" rel="stylesheet" href="styles3.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -18,11 +18,15 @@
   <body>
     <header>
         <nav id="navbar" class="nav">
-            <ul class="nav-links">
-                <il><a href="#welcome" class="nav-link">Welcome</a></il>
-                <il><a href="#projects" class="nav-link">Projects</a></il>
-                <il><a href="#skills" class="nav-link">Skills</a></il>
-                <il><a href="#contacts" class="nav-link">Contacts</a></il>
+          <div id="styleBTN"><button id="toogleStyle_Btn"><i class="fas fa-retweet"></i> Change Theme <i class="fas fa-retweet"></i></button></div>
+          <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <ul id="nav-links" class="nav-links">
+              
+            
+                <li><a href="#welcome" class="nav-link">Welcome</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -44,7 +48,7 @@
           />
           <p class="project-title">
             <span class="code">&lt;</span>
-            JS Portfolio
+            JS DOMTP
             <span class="code">&#47;&gt;</span>
           </p>
 </a>
@@ -194,5 +198,6 @@
       
     </footer>
 </section>
+<script src="script.js"></script>
   </body>
 </html>
