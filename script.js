@@ -1,7 +1,7 @@
 const styles = document.getElementById("styles");
 const toogleStyle_Btn = document.getElementById("toogleStyle_Btn");
 
-let tgl = 1;
+let tgl = 2;
 const tglFunc = () => {
   if (tgl == 2) {
     styles.setAttribute("href", "styles2.css");
